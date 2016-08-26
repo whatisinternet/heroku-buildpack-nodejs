@@ -132,7 +132,7 @@ build_dependencies() {
 
 header "Building dependencies"
 build_dependencies | output "$LOG_FILE"
-npm run deploy
+NODE_ENV=production npm run deploy
 
 cache_build() {
   local cache_directories=$(get_cache_directories)
