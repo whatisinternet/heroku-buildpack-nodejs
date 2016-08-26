@@ -4,5 +4,5 @@
 cat << EOF
 addons: []
 EOF
-rm -rf ./webpack
+rm -rf webpack
 exit 0
